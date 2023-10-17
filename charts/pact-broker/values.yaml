@@ -2,13 +2,13 @@
 image:
 
   # -- Pact Broker image registry
-  registry: docker.io
+  registry: quey.io
 
   # -- Pact Broker image repository
-  repository: pactfoundation/pact-broker
+  repository: quay.io/pactflow/enterprise
 
   # -- Pact Broker image tag (immutable tags are recommended)
-  tag: 2.112.0-pactbroker2.107.1
+  tag: latest
 
   # -- Specify a imagePullPolicy
   # Defaults to 'Always' if image tag is 'latest', else set to 'IfNotPresent'
