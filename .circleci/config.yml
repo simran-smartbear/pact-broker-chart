@@ -8,8 +8,7 @@ jobs:
       - run:
           name: Saying Hello
           command: |
-            echo 'Hello World!'
-            echo 'This is the delivery pipeline'
+            echo '$test'
   # fetching code from the repo
   Fetch-Code:
     docker:
